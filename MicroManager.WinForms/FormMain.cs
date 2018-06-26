@@ -168,8 +168,6 @@ namespace MicroManager.WinForms
 
         private void lstTasks_SelectedIndexChanged(object sender, EventArgs e)
         {
-            btnIncrease.Enabled = true;
-            btnDecrease.Enabled = true;
             btnStart.Enabled = true;
         }
 

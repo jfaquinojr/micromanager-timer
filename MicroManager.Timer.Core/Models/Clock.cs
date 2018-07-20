@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MicroManager.WinForms.Models
+namespace MicroManager.Timer.Core.Models
 {
-    class Clock
+    public class Clock
     {
         public int Minutes { get; private set; }
         public int Seconds { get; private set; }
@@ -19,15 +19,13 @@ namespace MicroManager.WinForms.Models
 
         public void Decrement()
         {
-            if(Minutes <= 0)
-            {
-                return;
-            }
-
             Seconds -= 1;
-            if(Seconds <= 0)
+            if(Seconds < 0)
             {
-                Minutes -= 1;
+                if (Minutes > 0)
+                {
+                    Minutes -= 1;
+                }
                 Seconds = 59;
             }
         }

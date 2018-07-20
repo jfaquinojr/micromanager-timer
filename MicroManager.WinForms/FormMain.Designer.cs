@@ -111,7 +111,7 @@
             // mnuOptions
             // 
             this.mnuOptions.Name = "mnuOptions";
-            this.mnuOptions.Size = new System.Drawing.Size(180, 22);
+            this.mnuOptions.Size = new System.Drawing.Size(111, 22);
             this.mnuOptions.Text = "Options";
             this.mnuOptions.Click += new System.EventHandler(this.mnuOptions_Click);
             // 

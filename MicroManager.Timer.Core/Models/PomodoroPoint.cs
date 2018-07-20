@@ -4,12 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MicroManager.WinForms.Models
+namespace MicroManager.Timer.Core.Models
 {
-    class PomodoroPoint
+    public class PomodoroPoint
     {
         public bool IsPlanned { get; private set; }
         public bool IsInterrupted { get; set; }
+        public DateTime? StartedTime { get; set; }
+        public DateTime? StoppedTime { get; set; }
 
         public PomodoroPoint()
         {

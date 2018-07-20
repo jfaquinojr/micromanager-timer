@@ -5,11 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Timers;
 
-namespace MicroManager.WinForms.presenters
+namespace MicroManager.Timer.Core.Presenters
 {
-    class SystemTimer : ITimer
+    public class SystemTimer : ITimer
     {
-        private Timer _timer;
+        private System.Timers.Timer _timer;
 
         public double Interval { get => _timer.Interval; set => _timer.Interval = value; }
         public bool Enabled { get => _timer.Enabled; set => _timer.Enabled = value; }
@@ -18,7 +18,7 @@ namespace MicroManager.WinForms.presenters
 
         public SystemTimer()
         {
-            _timer = new Timer();
+            _timer = new System.Timers.Timer();
             _timer.Elapsed += _timer_Elapsed;
         }
 

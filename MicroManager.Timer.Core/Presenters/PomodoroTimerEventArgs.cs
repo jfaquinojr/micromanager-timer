@@ -1,11 +1,11 @@
-﻿using MicroManager.WinForms.Models;
+﻿using MicroManager.Timer.Core.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MicroManager.WinForms.presenters
+namespace MicroManager.Timer.Core.Presenters
 {
     class PomodoroTimerEventArgs: EventArgs
     {

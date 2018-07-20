@@ -5,6 +5,12 @@ VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroManager.WinForms", "MicroManager.WinForms\MicroManager.WinForms.csproj", "{9371959B-5E08-45E4-906F-A42783DC11B9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroManager.Timer.WPF", "MicroManager.WPF\MicroManager.Timer.WPF.csproj", "{5507068D-064D-46E4-A9DF-A8C798899A2A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroManager.Timer.Core", "MicroManager.Timer.Core\MicroManager.Timer.Core.csproj", "{0E28B753-30EB-445B-B079-0ABF3BA9D065}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroManager.Timer.Tests", "MicroManager.Timer.Tests\MicroManager.Timer.Tests.csproj", "{F02B5965-E43A-44D4-9A61-10CC676198C9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{9371959B-5E08-45E4-906F-A42783DC11B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9371959B-5E08-45E4-906F-A42783DC11B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9371959B-5E08-45E4-906F-A42783DC11B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5507068D-064D-46E4-A9DF-A8C798899A2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5507068D-064D-46E4-A9DF-A8C798899A2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5507068D-064D-46E4-A9DF-A8C798899A2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5507068D-064D-46E4-A9DF-A8C798899A2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E28B753-30EB-445B-B079-0ABF3BA9D065}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E28B753-30EB-445B-B079-0ABF3BA9D065}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E28B753-30EB-445B-B079-0ABF3BA9D065}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E28B753-30EB-445B-B079-0ABF3BA9D065}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F02B5965-E43A-44D4-9A61-10CC676198C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F02B5965-E43A-44D4-9A61-10CC676198C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F02B5965-E43A-44D4-9A61-10CC676198C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F02B5965-E43A-44D4-9A61-10CC676198C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

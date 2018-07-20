@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Timers;
 
-namespace MicroManager.WinForms.presenters
+namespace MicroManager.Timer.Core.Presenters
 {
-    interface ITimer
+    public interface ITimer
     {
         double Interval { get; set; }
         event ElapsedEventHandler Elapsed;

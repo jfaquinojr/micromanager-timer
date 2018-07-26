@@ -1,5 +1,5 @@
 # micromanager-timer
-**The all in one pomodoro timer.**
+**[The all in one pomodoro timer.](https://jfaquinojr.wordpress.com/2018/06/28/the-ultimate-productivity-tool/)**
 
 Simplistic 1995 Design
 
